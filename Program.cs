@@ -9,8 +9,11 @@
             //CheckEmployee employee = new CheckEmployee();
             //employee.EmployeeCheck();
 
-            DailyEmployeeWage day = new DailyEmployeeWage();
-            day.Employeewage();
+            //DailyEmployeeWage day = new DailyEmployeeWage();
+            //day.Employeewage();
+
+            PartTimeEmployeeWage employeeWage = new PartTimeEmployeeWage();
+            employeeWage.PartEmployeeWage();
         }
     }
 }
