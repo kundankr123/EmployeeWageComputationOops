@@ -23,8 +23,11 @@ namespace EmployeeWageComputationOOPS
             //EmployeeWageofMonth wageofMonth = new EmployeeWageofMonth();
             //wageofMonth.EmployeeWageMonth();
 
-            TotalWageWhileLoop MonthlyWage = new TotalWageWhileLoop();
-            MonthlyWage.EmployeeWageMonthWhile();
+            //TotalWageWhileLoop MonthlyWage = new TotalWageWhileLoop();
+            //MonthlyWage.EmployeeWageMonthWhile();
+
+            MonthlyWageUsingClassVarAndMethod MonthlyWage = new MonthlyWageUsingClassVarAndMethod();
+            MonthlyWage.EmployeeWageOfMonth();
         }
     }
 }
