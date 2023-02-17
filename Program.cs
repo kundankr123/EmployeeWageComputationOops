@@ -15,8 +15,11 @@
             //PartTimeEmployeeWage employeeWage = new PartTimeEmployeeWage();
             //employeeWage.PartEmployeeWage();
 
-            SwitchCaseDailyWage dailyWage = new SwitchCaseDailyWage();
-            dailyWage.EmployeeWageSwitch();
+            //SwitchCaseDailyWage dailyWage = new SwitchCaseDailyWage();
+            //dailyWage.EmployeeWageSwitch();
+
+            EmployeeWageofMonth wageofMonth = new EmployeeWageofMonth();
+            wageofMonth.EmployeeWageMonth();
         }
     }
 }
