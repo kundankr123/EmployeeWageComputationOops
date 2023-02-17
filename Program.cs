@@ -1,4 +1,6 @@
-﻿namespace EmployeeWageComputationOOPS
+﻿using EmployeeWagecomputation;
+
+namespace EmployeeWageComputationOOPS
 {
     class Program
     {
@@ -18,8 +20,11 @@
             //SwitchCaseDailyWage dailyWage = new SwitchCaseDailyWage();
             //dailyWage.EmployeeWageSwitch();
 
-            EmployeeWageofMonth wageofMonth = new EmployeeWageofMonth();
-            wageofMonth.EmployeeWageMonth();
+            //EmployeeWageofMonth wageofMonth = new EmployeeWageofMonth();
+            //wageofMonth.EmployeeWageMonth();
+
+            TotalWageWhileLoop MonthlyWage = new TotalWageWhileLoop();
+            MonthlyWage.EmployeeWageMonthWhile();
         }
     }
 }
