@@ -26,8 +26,13 @@ namespace EmployeeWageComputationOOPS
             //TotalWageWhileLoop MonthlyWage = new TotalWageWhileLoop();
             //MonthlyWage.EmployeeWageMonthWhile();
 
-            MonthlyWageUsingClassVarAndMethod MonthlyWage = new MonthlyWageUsingClassVarAndMethod();
-            MonthlyWage.EmployeeWageOfMonth();
+            //MonthlyWageUsingClassVarAndMethod MonthlyWage = new MonthlyWageUsingClassVarAndMethod();
+            //MonthlyWage.EmployeeWageOfMonth();
+
+            EmployeeWageMultipleComapnies capgemini = new EmployeeWageMultipleComapnies();
+            capgemini.computeEmpWage("capgemini", 20, 20, 100);
+            EmployeeWageMultipleComapnies tcs = new EmployeeWageMultipleComapnies();
+            tcs.computeEmpWage("tcs", 15, 24, 95);
         }
     }
 }
